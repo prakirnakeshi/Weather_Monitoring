@@ -1,7 +1,7 @@
 import time
 from weather_data import fetch_weather_data, fetch_weather_forecast
 from data_processing import save_weather_data, save_forecast_data, setup_database, calculate_daily_summary, fetch_all_data
-from weather_app.visualization import plot_temperature_trends, plot_forecast_trends, plot_combined_summary
+from visualization import plot_temperature_trends, plot_forecast_trends, plot_combined_summary
 
 def main():
     # Step 1: Set up the database
