@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Monitoring</title>
+    <!-- Removed CSS file reference -->
+</head>
+<body>
+    {% load static %}  
+    <h1>Weather Monitoring Dashboard</h1>
+    
+    <h2>Daily Weather Trends</h2>
+    <img src="{% static 'images/city1_daily_trends.png' %}" alt="City 1 Daily Trends">
+    <img src="{% static 'images/city2_daily_trends.png' %}" alt="City 2 Daily Trends">
+    
+    <h2>Temperature Forecast</h2>
+    <img src="{% static 'images/city1_temperature_forecast.png' %}" alt="City 1 Temperature Forecast">
+    <img src="{% static 'images/city2_temperature_forecast.png' %}" alt="City 2 Temperature Forecast">
+    
+    <h2>Humidity Forecast</h2>
+    <img src="{% static 'images/city1_humidity_forecast.png' %}" alt="City 1 Humidity Forecast">
+    <img src="{% static 'images/city2_humidity_forecast.png' %}" alt="City 2 Humidity Forecast">
+
+    <h2>Combined Summary</h2>
+    <img src="{% static 'images/city1_combined_summary.png' %}" alt="City 1 Combined Summary">
+    <img src="{% static 'images/city2_combined_summary.png' %}" alt="City 2 Combined Summary">
+</body>
+</html>
